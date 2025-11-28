@@ -1,0 +1,129 @@
+# --------------------------
+# Miscellaneous
+# --------------------------
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+Thumbs.db
+
+# --------------------------
+# IDE / Editors
+# --------------------------
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VSCode (garde les settings si tu veux)
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/extensions.json
+
+# Xcode
+*.xcworkspace
+*.xcuserstate
+*.xcuserdata/
+*.xcscmblueprint
+
+# --------------------------
+# Flutter / Dart / Pub
+# --------------------------
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+generated_plugin_registrant.dart
+
+# Symbolication
+app.*.symbols
+
+# Obfuscation
+app.*.map.json
+
+# --------------------------
+# Android
+# --------------------------
+/android/.gradle/
+/android/captures/
+/android/app/debug
+/android/app/profile
+/android/app/release
+/android/app/*.keystore
+/android/key.properties
+/android/local.properties
+**/*.jks
+**/*.keystore
+
+# Gradle
+android/.gradle/
+android/build/
+**/gradle-wrapper.jar
+
+# --------------------------
+# iOS / macOS
+# --------------------------
+# CocoaPods
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.podspec
+ios/Flutter/.last_build_id
+
+# Xcode build
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Generated.xcconfig
+ios/build/
+
+# macOS
+macos/Flutter/GeneratedPluginRegistrant.swift
+macos/Flutter/ephemeral/
+macos/build/
+
+# --------------------------
+# Linux
+# --------------------------
+linux/flutter/ephemeral/
+linux/build/
+
+# --------------------------
+# Windows
+# --------------------------
+windows/flutter/ephemeral/
+windows/build/
+
+# --------------------------
+# Web
+# --------------------------
+web/.dart_tool/
+web/.flutter-plugins
+web/.flutter-plugins-dependencies
+
+# --------------------------
+# Logs, temp
+# --------------------------
+*.tmp
+*.temp
+*.log
+*.bak
+
+# --------------------------
+# ENV files (si tu utilises des secrets)
+# --------------------------
+.env
+.env.*
